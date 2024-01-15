@@ -12,7 +12,7 @@ function App() {
           <Route path="/search" element={<Layout>
             <p>Search page</p>
           </Layout>} />
-          <Route path="/" element={<Navigate to='/'/>}/>
+          <Route path="*" element={<Navigate to='/'/>}/>
         </Routes>
       </Router>  
   )
