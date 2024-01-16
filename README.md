@@ -5,17 +5,17 @@
 => MondoDB
 => Rest API
 
-# This repository contains the source code for the frontend and backend of the project.
+### This repository contains the source code for the frontend and backend of the project.
 
 # Clone Repository
 To clone the repository, use the following command:
 git clone https://github.com/ankittyagi140/book-your-hotel---fullstack.git
 
-## Frontend
-# Prerequisites
+# Frontend
+### Prerequisites
 Make sure you have Node.js installed on your machine.
 
-# Getting Started
+## Getting Started
 1. Navigate to the frontend directory:
     cd frontend
 2. Install dependencies
@@ -24,11 +24,11 @@ Make sure you have Node.js installed on your machine.
     npm run dev
 This will launch the frontend application, and you can access it in your browser at http://localhost:5176.
 
-## Backend
-# Prerequisites
+# Backend
+### Prerequisites
 Make sure you have Node.js installed on your machine.
 
-# Getting Started
+## Getting Started
 1. Navigate to the backend directory:
     cd backend
 2. Install dependencies
