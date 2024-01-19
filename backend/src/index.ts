@@ -10,7 +10,10 @@ mongoose.connect(process.env.MONGODB_CONNECTION_STRING as string)
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.use(cors());
+app.use(cors({
+    origin:process.env.FROENTEND_URL,
+    credentials: true,
+}));
 const PORT = 8000;
 
 //user routes
